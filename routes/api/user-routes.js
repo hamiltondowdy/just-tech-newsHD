@@ -32,7 +32,6 @@ router.get('/:id', (req, res) => {
       res.status(500).json(err);
     });
 });
-
 router.post('/', (req, res) => {
   // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
   User.create({
