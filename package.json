@@ -34,6 +34,7 @@
     "heroku": "^7.59.2",
     "mysql2": "^2.3.3",
     "phoenix": "^1.6.6",
+    "prettier": "^2.5.1",
     "sequelize": "^6.15.0"
   },
   "devDependencies": {
